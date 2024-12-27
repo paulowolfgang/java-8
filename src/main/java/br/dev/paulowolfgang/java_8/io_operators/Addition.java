@@ -36,5 +36,17 @@ public class Addition {
         sum = number01 + number02;
         
         System.out.printf("Sum is: %d%n", sum);
+        
+        /*
+        Operadores aritméticos
+        
+        + -> Adição
+        - -> Subtração
+        * -> Multiplicação
+        / -> Divisão
+        % -> Resto
+        */
+        
+        
     }
 }
