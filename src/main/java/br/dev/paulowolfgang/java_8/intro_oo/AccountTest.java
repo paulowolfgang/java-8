@@ -8,25 +8,29 @@ import java.util.Scanner;
  */
 public class AccountTest {
     public static void main(String[] args) {
-        /*
+        
+        Account account01 = new Account("Jane Green", 50.00);
+        Account account02 = new Account("Jane Blue", -7.53);
+        
+        System.out.printf("%s balance: $%.2f %n", account01.getName(), account01.getBalance());
+        System.out.printf("%s balance: $%.2f %n%n", account02.getName(), account02.getBalance());
+        
         Scanner input = new Scanner(System.in);
         
-        Account myAccount = new Account();
+        System.out.print("Enter deposit amount for account 01: ");
+        double depositAmount = input.nextDouble();
+        System.out.printf("%nadding %.2f to account 01 balance%n%n", depositAmount);
+        account01.deposit(depositAmount);
         
-        System.out.printf("Initial name is: %s%n%n", myAccount.getName());
+        System.out.printf("%s balance: $%.2f %n", account01.getName(), account01.getBalance());
+        System.out.printf("%s balance: $%.2f %n%n", account02.getName(), account02.getBalance());
         
-        System.out.println("Please, enter the name: ");
-        String theName = input.nextLine();
-        myAccount.setName(theName);
-        System.out.println();
+        System.out.print("Enter deposit amount for account 02: ");
+        depositAmount = input.nextDouble();
+        System.out.printf("%nadding %.2f to account 02 balance%n%n", depositAmount);
+        account02.deposit(depositAmount);
         
-        System.out.printf("Name in object myAccount is: %n%s%n", myAccount.getName());
-        */
-        
-        Account account01 = new Account("Jane Green");
-        Account account02 = new Account("Jane Blue");
-        
-        System.out.printf("Account 01 name is: %s%n", account01.getName());
-        System.out.printf("Account 02 name is: %s%n", account02.getName());
+        System.out.printf("%s balance: $%.2f %n", account01.getName(), account01.getBalance());
+        System.out.printf("%s balance: $%.2f %n%n", account02.getName(), account02.getBalance());
     }
 }
