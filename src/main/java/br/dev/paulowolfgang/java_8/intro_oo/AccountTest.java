@@ -8,7 +8,7 @@ import java.util.Scanner;
  */
 public class AccountTest {
     public static void main(String[] args) {
-        
+        /*
         Scanner input = new Scanner(System.in);
         
         Account myAccount = new Account();
@@ -21,5 +21,12 @@ public class AccountTest {
         System.out.println();
         
         System.out.printf("Name in object myAccount is: %n%s%n", myAccount.getName());
+        */
+        
+        Account account01 = new Account("Jane Green");
+        Account account02 = new Account("Jane Blue");
+        
+        System.out.printf("Account 01 name is: %s%n", account01.getName());
+        System.out.printf("Account 02 name is: %s%n", account02.getName());
     }
 }
