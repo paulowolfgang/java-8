@@ -1,4 +1,4 @@
-package br.dev.paulowolfgang.java_8.control_instructions;
+package br.dev.paulowolfgang.java_8.control_instructions.part_i;
 
 import java.util.Scanner;
 
