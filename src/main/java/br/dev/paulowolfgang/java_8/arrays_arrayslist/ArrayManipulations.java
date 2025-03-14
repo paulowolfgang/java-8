@@ -19,6 +19,7 @@ public class ArrayManipulations {
         
         int[] filledIntArray = new int[10];
         Arrays.fill(filledIntArray, 7);
+        displayArray(filledIntArray, "filledIntArray");
         
         int[] intArray = { 1, 2, 3, 4, 5, 6 };
         int[] intArrayCopy = new int[intArray.length];
