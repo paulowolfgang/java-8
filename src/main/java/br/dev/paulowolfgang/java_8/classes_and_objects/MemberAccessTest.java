@@ -1,0 +1,16 @@
+package br.dev.paulowolfgang.java_8.classes_and_objects;
+
+/**
+ *
+ * @author Paulo Silva
+ */
+public class MemberAccessTest {
+    public static void main(String[] args) {
+        
+        Time1 time = new Time1();
+        
+        // time.hour = 7;
+        // time.minute = 15;
+        // time.second = 30;
+    }
+}
