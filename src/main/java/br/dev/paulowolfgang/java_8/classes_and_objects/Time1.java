@@ -24,7 +24,8 @@ public class Time1 {
     
     public String toUniversalString()
     {
-        return String.format("%d:%02d:%02d %s", ((hour == 0 || hour == 12) ? 12 : hour % 12),
+        return String.format("%d:%02d:%02d %s",
+                ((hour == 0 || hour == 12) ? 12 : hour % 12),
                 minute, second, (hour < 12 ? "AM" : "PM"));
     }
 }
