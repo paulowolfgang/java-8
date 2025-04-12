@@ -17,7 +17,6 @@ public class CreateTextFile
     
     public static void main(String[] args)
     {
-        
         openFile();
         addRecords();
         closeFile();
