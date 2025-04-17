@@ -22,8 +22,9 @@ public class WordTypeCount
     
     private static void createMap(Map<String, Integer> map)
     {
-        Scanner scanner = new Scanner(System.in); // cria o scanner
-        System.out.println("Enter a string:"); // solicita a entrada do usuário
+        Scanner scanner = new Scanner(System.in);
+        
+        System.out.println("Enter a string:");
         String input = scanner.nextLine();
 
         String[] tokens = input.split(" ");
