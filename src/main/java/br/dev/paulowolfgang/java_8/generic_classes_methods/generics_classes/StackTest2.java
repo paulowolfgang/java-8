@@ -1,4 +1,4 @@
-package br.dev.paulowolfgang.java_8.generic_classes_methods;
+package br.dev.paulowolfgang.java_8.generic_classes_methods.generics_classes;
 
 /**
  *
